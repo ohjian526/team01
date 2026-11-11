@@ -24,7 +24,7 @@ def get_ncp_trend_data():
     # 3. 검색어 및 조회 기간 설정
     body = {
         "startDate": "2023-08-01",
-        "endDate": "2024-10-31",
+        "endDate": "2026-11-11",
         "timeUnit": "month",
         "keywordGroups": [
             {"groupName": "탕후루", "keywords": ["탕후루"]},
