@@ -1,9 +1,8 @@
 import streamlit as st
 import pandas as pd
 
-# 1. 앱 상단 제목 및 설명
+# 1. 앱 상단 제목
 st.title("디저트 유행 주기 분석 🍰")
-st.write("탕후루, 두쫀쿠, 한정선, 고디바모찌의 네이버 검색량 추이 데이터입니다.")
 
 # 2. 가짜 데이터(더미 데이터) 생성
 # (데이터 수집 팀원이 완성된 코드를 주면, 이 부분을 실제 API 호출 코드로 교체!)
@@ -18,4 +17,4 @@ df = pd.DataFrame(data)
 
 # 3. 데이터 화면에 출력 (2단계 중간 점검 최소 요건 충족용)
 st.subheader("수집된 데이터 샘플 확인")
-st.dataframe(df) # 데이터를 표 형태로 화면에 예쁘게 보여줌
+st.dataframe(df)
